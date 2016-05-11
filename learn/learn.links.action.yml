@@ -1,0 +1,6 @@
+learn_entity_content.note_add:
+  route_name: entity.content_entity_note.add_form
+  title: 'Add Note'
+
+  appears_on:
+    - entity.content_entity_note.collection

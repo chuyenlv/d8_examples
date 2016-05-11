@@ -1,0 +1,44 @@
+entity.d8_note.canonical:
+  path: '/note/{d8_note}'
+  defaults:
+  # Calls the view controller, defined in the annotation of the contact entity
+    _entity_view: 'd8_note'
+    _title: 'Note detail'
+  requirements:
+    _permission: 'access content'
+
+entity.content_entity_note.collection:
+  path: '/note/list'
+  defaults:
+  # Calls the list controller, defined in the annotation of the contact entity.
+    _entity_list: 'd8_note'
+    _title: 'Note List'
+  requirements:
+    _permission: 'access content'
+
+entity.content_entity_note.add_form:
+  path: '/note/add'
+  defaults:
+  # Calls the form.add controller, defined in the contact entity.
+    _entity_form: d8_note.add
+    _title: 'Add note'
+  requirements:
+    _permission: 'add note entity'
+
+entity.d8_note.edit_form:
+  path: '/note/{d8_note}/edit'
+  defaults:
+  # Calls the form.edit controller, defined in the contact entity.
+    _entity_form: d8_note.edit
+    _title: 'Edit Note'
+  requirements:
+    _permission: 'edit note entity'
+
+entity.d8_note.delete_form:
+  path: '/note/{d8_note}/delete'
+  defaults:
+    # Calls the form.delete controller, defined in the contact entity.
+    _entity_form: d8_note.delete
+    _title: 'Delete Note'
+  requirements:
+    _permission: 'delete note entity'

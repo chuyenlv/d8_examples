@@ -1,0 +1,15 @@
+note.view:
+  route_name: entity.d8_note.canonical
+  base_route: entity.d8_note.canonical
+  title: View
+
+note.page_edit:
+  route_name: entity.d8_note.edit_form
+  base_route: entity.d8_note.canonical
+  title: Edit
+
+note.delete_confirm:
+  route_name:  entity.d8_note.delete_form
+  base_route:  entity.d8_note.canonical
+  title: Delete
+  weight: 10
