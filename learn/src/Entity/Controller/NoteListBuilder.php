@@ -42,6 +42,7 @@ class NoteListBuilder extends EntityListBuilder {
    */
   public function buildHeader() {
     $header['name'] = $this->t('Name');
+    $header['owner'] = $this->t('Owner');
     return $header + parent::buildHeader();
   }
 
@@ -51,6 +52,8 @@ class NoteListBuilder extends EntityListBuilder {
   public function buildRow(EntityInterface $entity) {
     /* @var $entity \Drupal\learn\Entity\Note */
     $row['name'] = $entity->link();
+    $row['owner'] = $entity->user_id->entity->getUsername();
+
     return $row + parent::buildRow($entity);
   }
 
