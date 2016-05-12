@@ -11,7 +11,7 @@ use Drupal\Core\Entity\EntityListBuilder;
 use Drupal\Core\Url;
 
 /**
- * Provides a list controller for learn_contact entity.
+ * Provides a list controller for learn note entity.
  *
  * @ingroup learn
  */
@@ -35,7 +35,7 @@ class NoteListBuilder extends EntityListBuilder {
   /**
    * {@inheritdoc}
    *
-   * Building the header and content lines for the contact list.
+   * Building the header and content lines for the note list.
    *
    * Calling the parent::buildHeader() adds a column for the possible actions
    * and inserts the 'edit' and 'delete' links as defined for the entity type.

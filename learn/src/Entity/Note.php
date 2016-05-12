@@ -146,7 +146,7 @@ class Note extends ContentEntityBase implements NoteInterface {
       ->setDescription(t('The UUID of the Note entity.'))
       ->setReadOnly(TRUE);
 
-    // Name field for the contact.
+    // Name field for the note.
     // We set display options for the view as well as the form.
     // Users with correct privileges can change the view and edit configuration.
     $fields['name'] = BaseFieldDefinition::create('string')
