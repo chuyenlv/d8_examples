@@ -1,10 +1,11 @@
 <?php
+
+namespace Drupal\learn\Entity;
+
 /**
  * @file
  * Contains \Drupal\learn\Entity\ContentEntityExample.
  */
-
-namespace Drupal\learn\Entity;
 
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Field\BaseFieldDefinition;

@@ -1,10 +1,11 @@
 <?php
+
+namespace Drupal\learn\Form;
+
 /**
  * @file
  * Contains Drupal\learn\Form\ContactForm.
  */
-
-namespace Drupal\learn\Form;
 
 use Drupal\Core\Entity\ContentEntityForm;
 use Drupal\Core\Language\Language;

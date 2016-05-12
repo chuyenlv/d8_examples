@@ -1,14 +1,14 @@
 <?php
+
+namespace Drupal\learn\Entity\Controller;
+
 /**
  * @file
  * Contains \Drupal\learn\Entity\Controller\NoteListBuilder.
  */
 
-namespace Drupal\learn\Entity\Controller;
-
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityListBuilder;
-use Drupal\Core\Url;
 
 /**
  * Provides a list controller for learn note entity.
