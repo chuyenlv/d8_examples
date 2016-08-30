@@ -1,0 +1,13 @@
+# Note menu items definition
+entity.note.collection:
+  title: 'Note list'
+  route_name: entity.note.collection
+  description: 'List Note entities'
+  parent: system.admin_structure
+  weight: 100
+
+note.admin.structure.settings:
+  title: Note settings
+  description: 'Configure Note entities'
+  route_name: note.settings
+  parent: system.admin_structure

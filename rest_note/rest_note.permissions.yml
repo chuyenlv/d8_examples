@@ -1,0 +1,22 @@
+add note entities:
+  title: 'Create new Note entities'
+
+administer note entities:
+  title: 'Administer Note entities'
+  description: 'Allow to access the administration form to configure Note entities.'
+  restrict access: true
+
+delete note entities:
+  title: 'Delete Note entities'
+
+edit note entities:
+  title: 'Edit Note entities'
+
+access note overview:
+  title: 'Access the Note overview page'
+
+view published note entities:
+  title: 'View published Note entities'
+
+view unpublished note entities:
+  title: 'View unpublished Note entities'
