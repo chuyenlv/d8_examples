@@ -246,7 +246,6 @@ class DefaultRestResource extends ResourceBase {
    */
   protected function getBaseRoute($canonical_path, $method) {
     $route = parent::getBaseRoute($canonical_path, $method);
-    $definition = $this->getPluginDefinition();
 
     $parameters = $route->getOption('parameters') ?: array();
 
